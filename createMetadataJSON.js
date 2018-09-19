@@ -1,4 +1,6 @@
 const dicomParser = require('dicom-parser');
+const fs = require('fs');
+const config = require('./config.js');
 
 function parseAndInsertFile(content, url) {
     return new Promise(function(resolve, reject) {
@@ -87,32 +89,13 @@ function addStudyIntoFile(inputStudy, finalJSON) {
     }
 }
 
-const fs = require('fs');
-const path = require('path');
-
-/**
- * TODO: THIS IS THE FOLDER YOU ARE STORING YOUR FILES
- */
-const testFolder = './dicomFiles';
-/** */
+const testFolder = config.testFolder;
+const url = `dicomweb://${config.dicomRepositoryUrl}${testFolder}`; 
+const filename = config.filename;
 
 const finalJSON = {
     studies: []
 };
-
-const dirname = path.basename(process.cwd());
-
-/**
- * TODO: HERE YOU NEED TO POINT TO YOUR RAWGIT FOLDER
- */
-const url = `dicomweb://s3.amazonaws.com/lury/${dirname}/`; 
-/** */
-
-/**
- * TODO: HERE YOU SET THE GENERATED FILE NAME
- */
-const filename = `study.json`;
-/** */
 
 const promises = [];
 
@@ -123,7 +106,7 @@ fs.readdir(testFolder, (err, files) => {
     	}
 
     	const promise = new Promise((resolve, reject) => {
-	        fs.readFile(file, (err, data) => {
+	        fs.readFile(testFolder + file, (err, data) => {
 	            if (err) {
 	                reject(err);
 	            }
