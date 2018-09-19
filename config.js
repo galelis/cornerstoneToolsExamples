@@ -5,6 +5,6 @@
  */
 module.exports = {
     testFolder: 'dicomFiles/',
-    dicomRepositoryUrl: 'raw.githubusercontent.com/galelis/testData/master/CT/',
+    dicomRepositoryUrl: 'raw.githubusercontent.com/galelis/cornerstoneToolsExamples/master/',
     filename: `study.json`
 }

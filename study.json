@@ -31,7 +31,7 @@
               "imagePositionPatient": "-156.000000\\-135.100006\\-283.750000",
               "imageType": "DERIVED\\SECONDARY\\PROCESSED",
               "sopInstanceUid": "1.3.6.1.4.1.9328.50.1.10027988914225759933464507888643396904",
-              "url": "dicomweb://raw.githubusercontent.com/galelis/testData/master/CT/dicomFiles/1.3.6.1.4.1.9328.50.1.10027988914225759933464507888643396904.dcm"
+              "url": "dicomweb://raw.githubusercontent.com/galelis/cornerstoneToolsExamples/master/dicomFiles/1.3.6.1.4.1.9328.50.1.10027988914225759933464507888643396904.dcm"
             },
             {
               "columns": 512,
@@ -51,7 +51,7 @@
               "imagePositionPatient": "-156.000000\\-135.100006\\-307.500000",
               "imageType": "DERIVED\\SECONDARY\\PROCESSED",
               "sopInstanceUid": "1.3.6.1.4.1.9328.50.1.141143811403914681247023505728832827953",
-              "url": "dicomweb://raw.githubusercontent.com/galelis/testData/master/CT/dicomFiles/1.3.6.1.4.1.9328.50.1.141143811403914681247023505728832827953.dcm"
+              "url": "dicomweb://raw.githubusercontent.com/galelis/cornerstoneToolsExamples/master/dicomFiles/1.3.6.1.4.1.9328.50.1.141143811403914681247023505728832827953.dcm"
             },
             {
               "columns": 512,
@@ -71,47 +71,7 @@
               "imagePositionPatient": "-156.000000\\-135.100006\\-310.000000",
               "imageType": "DERIVED\\SECONDARY\\PROCESSED",
               "sopInstanceUid": "1.3.6.1.4.1.9328.50.1.163439816882856041659631692783816062730",
-              "url": "dicomweb://raw.githubusercontent.com/galelis/testData/master/CT/dicomFiles/1.3.6.1.4.1.9328.50.1.163439816882856041659631692783816062730.dcm"
-            },
-            {
-              "columns": 512,
-              "rows": 512,
-              "instanceNumber": "12",
-              "acquisitionNumber": "1",
-              "photometricInterpretation": "MONOCHROME2",
-              "bitAllocated": 16,
-              "bitsStored": 16,
-              "pixelRepresentation": 1,
-              "samplesPerPixel": 1,
-              "pixelSpacing": "0.634766\\0.634766",
-              "highBit": 15,
-              "rescaleSlope": "1",
-              "rescaleIntercept": "-1024",
-              "imageOrientationPatient": "1.000000\\0.000000\\0.000000\\0.000000\\1.000000\\0.000000",
-              "imagePositionPatient": "-156.000000\\-135.100006\\-28.750000",
-              "imageType": "DERIVED\\SECONDARY\\PROCESSED",
-              "sopInstanceUid": "1.3.6.1.4.1.9328.50.1.191035939666979478765879908236991270882",
-              "url": "dicomweb://raw.githubusercontent.com/galelis/testData/master/CT/dicomFiles/1.3.6.1.4.1.9328.50.1.191035939666979478765879908236991270882.dcm"
-            },
-            {
-              "columns": 512,
-              "rows": 512,
-              "instanceNumber": "191",
-              "acquisitionNumber": "1",
-              "photometricInterpretation": "MONOCHROME2",
-              "bitAllocated": 16,
-              "bitsStored": 16,
-              "pixelRepresentation": 1,
-              "samplesPerPixel": 1,
-              "pixelSpacing": "0.634766\\0.634766",
-              "highBit": 15,
-              "rescaleSlope": "1",
-              "rescaleIntercept": "-1024",
-              "imageOrientationPatient": "1.000000\\0.000000\\0.000000\\0.000000\\1.000000\\0.000000",
-              "imagePositionPatient": "-156.000000\\-135.100006\\-252.500000",
-              "imageType": "DERIVED\\SECONDARY\\PROCESSED",
-              "sopInstanceUid": "1.3.6.1.4.1.9328.50.1.201268627167654146798939105337218779312",
-              "url": "dicomweb://raw.githubusercontent.com/galelis/testData/master/CT/dicomFiles/1.3.6.1.4.1.9328.50.1.201268627167654146798939105337218779312.dcm"
+              "url": "dicomweb://raw.githubusercontent.com/galelis/cornerstoneToolsExamples/master/dicomFiles/1.3.6.1.4.1.9328.50.1.163439816882856041659631692783816062730.dcm"
             },
             {
               "columns": 512,
@@ -131,12 +91,12 @@
               "imagePositionPatient": "-156.000000\\-135.100006\\-177.500000",
               "imageType": "DERIVED\\SECONDARY\\PROCESSED",
               "sopInstanceUid": "1.3.6.1.4.1.9328.50.1.215033356982757529603995849054522956863",
-              "url": "dicomweb://raw.githubusercontent.com/galelis/testData/master/CT/dicomFiles/1.3.6.1.4.1.9328.50.1.215033356982757529603995849054522956863.dcm"
+              "url": "dicomweb://raw.githubusercontent.com/galelis/cornerstoneToolsExamples/master/dicomFiles/1.3.6.1.4.1.9328.50.1.215033356982757529603995849054522956863.dcm"
             },
             {
               "columns": 512,
               "rows": 512,
-              "instanceNumber": "138",
+              "instanceNumber": "12",
               "acquisitionNumber": "1",
               "photometricInterpretation": "MONOCHROME2",
               "bitAllocated": 16,
@@ -148,15 +108,15 @@
               "rescaleSlope": "1",
               "rescaleIntercept": "-1024",
               "imageOrientationPatient": "1.000000\\0.000000\\0.000000\\0.000000\\1.000000\\0.000000",
-              "imagePositionPatient": "-156.000000\\-135.100006\\-186.250000",
+              "imagePositionPatient": "-156.000000\\-135.100006\\-28.750000",
               "imageType": "DERIVED\\SECONDARY\\PROCESSED",
-              "sopInstanceUid": "1.3.6.1.4.1.9328.50.1.245932944528977513985904218117169164372",
-              "url": "dicomweb://raw.githubusercontent.com/galelis/testData/master/CT/dicomFiles/1.3.6.1.4.1.9328.50.1.245932944528977513985904218117169164372.dcm"
+              "sopInstanceUid": "1.3.6.1.4.1.9328.50.1.191035939666979478765879908236991270882",
+              "url": "dicomweb://raw.githubusercontent.com/galelis/cornerstoneToolsExamples/master/dicomFiles/1.3.6.1.4.1.9328.50.1.191035939666979478765879908236991270882.dcm"
             },
             {
               "columns": 512,
               "rows": 512,
-              "instanceNumber": "41",
+              "instanceNumber": "191",
               "acquisitionNumber": "1",
               "photometricInterpretation": "MONOCHROME2",
               "bitAllocated": 16,
@@ -168,10 +128,10 @@
               "rescaleSlope": "1",
               "rescaleIntercept": "-1024",
               "imageOrientationPatient": "1.000000\\0.000000\\0.000000\\0.000000\\1.000000\\0.000000",
-              "imagePositionPatient": "-156.000000\\-135.100006\\-65.000000",
+              "imagePositionPatient": "-156.000000\\-135.100006\\-252.500000",
               "imageType": "DERIVED\\SECONDARY\\PROCESSED",
-              "sopInstanceUid": "1.3.6.1.4.1.9328.50.1.87377446294400661403443911041606323670",
-              "url": "dicomweb://raw.githubusercontent.com/galelis/testData/master/CT/dicomFiles/1.3.6.1.4.1.9328.50.1.87377446294400661403443911041606323670.dcm"
+              "sopInstanceUid": "1.3.6.1.4.1.9328.50.1.201268627167654146798939105337218779312",
+              "url": "dicomweb://raw.githubusercontent.com/galelis/cornerstoneToolsExamples/master/dicomFiles/1.3.6.1.4.1.9328.50.1.201268627167654146798939105337218779312.dcm"
             },
             {
               "columns": 512,
@@ -191,7 +151,27 @@
               "imagePositionPatient": "-156.000000\\-135.100006\\-251.250000",
               "imageType": "DERIVED\\SECONDARY\\PROCESSED",
               "sopInstanceUid": "1.3.6.1.4.1.9328.50.1.252145958542534188403269165259869547133",
-              "url": "dicomweb://raw.githubusercontent.com/galelis/testData/master/CT/dicomFiles/1.3.6.1.4.1.9328.50.1.252145958542534188403269165259869547133.dcm"
+              "url": "dicomweb://raw.githubusercontent.com/galelis/cornerstoneToolsExamples/master/dicomFiles/1.3.6.1.4.1.9328.50.1.252145958542534188403269165259869547133.dcm"
+            },
+            {
+              "columns": 512,
+              "rows": 512,
+              "instanceNumber": "138",
+              "acquisitionNumber": "1",
+              "photometricInterpretation": "MONOCHROME2",
+              "bitAllocated": 16,
+              "bitsStored": 16,
+              "pixelRepresentation": 1,
+              "samplesPerPixel": 1,
+              "pixelSpacing": "0.634766\\0.634766",
+              "highBit": 15,
+              "rescaleSlope": "1",
+              "rescaleIntercept": "-1024",
+              "imageOrientationPatient": "1.000000\\0.000000\\0.000000\\0.000000\\1.000000\\0.000000",
+              "imagePositionPatient": "-156.000000\\-135.100006\\-186.250000",
+              "imageType": "DERIVED\\SECONDARY\\PROCESSED",
+              "sopInstanceUid": "1.3.6.1.4.1.9328.50.1.245932944528977513985904218117169164372",
+              "url": "dicomweb://raw.githubusercontent.com/galelis/cornerstoneToolsExamples/master/dicomFiles/1.3.6.1.4.1.9328.50.1.245932944528977513985904218117169164372.dcm"
             },
             {
               "columns": 512,
@@ -211,7 +191,27 @@
               "imagePositionPatient": "-156.000000\\-135.100006\\-133.750000",
               "imageType": "DERIVED\\SECONDARY\\PROCESSED",
               "sopInstanceUid": "1.3.6.1.4.1.9328.50.1.320595980086051062019009651907779865749",
-              "url": "dicomweb://raw.githubusercontent.com/galelis/testData/master/CT/dicomFiles/1.3.6.1.4.1.9328.50.1.320595980086051062019009651907779865749.dcm"
+              "url": "dicomweb://raw.githubusercontent.com/galelis/cornerstoneToolsExamples/master/dicomFiles/1.3.6.1.4.1.9328.50.1.320595980086051062019009651907779865749.dcm"
+            },
+            {
+              "columns": 512,
+              "rows": 512,
+              "instanceNumber": "41",
+              "acquisitionNumber": "1",
+              "photometricInterpretation": "MONOCHROME2",
+              "bitAllocated": 16,
+              "bitsStored": 16,
+              "pixelRepresentation": 1,
+              "samplesPerPixel": 1,
+              "pixelSpacing": "0.634766\\0.634766",
+              "highBit": 15,
+              "rescaleSlope": "1",
+              "rescaleIntercept": "-1024",
+              "imageOrientationPatient": "1.000000\\0.000000\\0.000000\\0.000000\\1.000000\\0.000000",
+              "imagePositionPatient": "-156.000000\\-135.100006\\-65.000000",
+              "imageType": "DERIVED\\SECONDARY\\PROCESSED",
+              "sopInstanceUid": "1.3.6.1.4.1.9328.50.1.87377446294400661403443911041606323670",
+              "url": "dicomweb://raw.githubusercontent.com/galelis/cornerstoneToolsExamples/master/dicomFiles/1.3.6.1.4.1.9328.50.1.87377446294400661403443911041606323670.dcm"
             },
             {
               "columns": 512,
@@ -231,7 +231,7 @@
               "imagePositionPatient": "-156.000000\\-135.100006\\-235.000000",
               "imageType": "DERIVED\\SECONDARY\\PROCESSED",
               "sopInstanceUid": "1.3.6.1.4.1.9328.50.1.96963646706767466747807096414694018238",
-              "url": "dicomweb://raw.githubusercontent.com/galelis/testData/master/CT/dicomFiles/1.3.6.1.4.1.9328.50.1.96963646706767466747807096414694018238.dcm"
+              "url": "dicomweb://raw.githubusercontent.com/galelis/cornerstoneToolsExamples/master/dicomFiles/1.3.6.1.4.1.9328.50.1.96963646706767466747807096414694018238.dcm"
             }
           ]
         }
