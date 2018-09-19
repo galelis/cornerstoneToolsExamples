@@ -1,0 +1,15 @@
+{
+  "name": "dcm-json-generator",
+  "version": "1.0.0",
+  "description": "Generate a STUDY JSON file ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "create-json": "node createMetadataJSON.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dicom-parser": "^1.8.1"
+  }
+}
