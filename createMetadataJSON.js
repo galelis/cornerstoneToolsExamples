@@ -1,4 +1,5 @@
 const dicomParser = require('dicom-parser');
+const sortBy = require('lodash.sortby');
 const fs = require('fs');
 const config = require('./config.js');
 
@@ -99,6 +100,16 @@ const finalJSON = {
 
 const promises = [];
 
+sortSeriesImages = (obj) => {
+    obj.studies.forEach( study => {
+        study.seriesList.forEach( serie => {
+            serie.instances = sortBy(serie.instances, (instance) => {
+                return parseInt(instance.instanceNumber);
+            });
+        })
+    });
+}
+
 fs.readdir(testFolder, (err, files) => {
     files.forEach(file => {
     	if (file === '.DS_Store' || file === 'study.json') {
@@ -123,6 +134,7 @@ fs.readdir(testFolder, (err, files) => {
     });
 
     Promise.all(promises).then(() => {
+        sortSeriesImages(finalJSON);
         const json = JSON.stringify(finalJSON, null, 2);
         fs.writeFile(filename, json, 'utf8', () => {
         	console.log('DONE!');

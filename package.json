@@ -11,5 +11,8 @@
   "license": "ISC",
   "dependencies": {
     "dicom-parser": "^1.8.1"
+  },
+  "devDependencies": {
+    "lodash.sortby": "^4.7.0"
   }
 }
