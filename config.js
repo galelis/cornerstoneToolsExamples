@@ -4,7 +4,7 @@
  * @return  {filename}: Generated file name
  */
 module.exports = {
-    testFolder: 'belonaSagCor/',
+    testFolder: 'belonaSagCorAxial/',
     dicomRepositoryUrl: 'raw.githubusercontent.com/galelis/cornerstoneToolsExamples/master/',
-    filename: `belonaSagCor.json`
+    filename: `belonaSagCorAxial.json`
 }
